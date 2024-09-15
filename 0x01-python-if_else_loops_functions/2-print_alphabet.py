@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-# Print lowercase ASCII alphabets using chr()
-for i in range(97, 123): # ASCII values from 'a' to 'z'
-    print(chr(i), end="")
+"""Print alphabet in lowercase, not followed by a new line"""
+for letter in range(97, 123): # ASCII values from 'a' to 'z'
+    print("{}".format(chr(letter)), end="")
